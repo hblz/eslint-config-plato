@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-plato",
+  "version": "0.0.0",
+  "description": "eslint config for PLATO projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crossjs/eslint-config-plato.git"
+  },
+  "keywords": [
+    "eslint",
+    "plato"
+  ],
+  "author": "crossjs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crossjs/eslint-config-plato/issues"
+  },
+  "homepage": "https://github.com/crossjs/eslint-config-plato#readme",
+  "dependencies": {
+    "babel-eslint": "^6.1.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-html": "^1.5.1",
+  }
+}
