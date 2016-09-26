@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/crossjs/eslint-config-plato#readme",
   "dependencies": {
-    "babel-eslint": "^6.1.0",
+    "babel-eslint": "^6.1.2",
     "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-html": "^1.5.1"
+    "eslint-plugin-html": "^1.5.2"
   }
 }
