@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-plato",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "eslint config for PLATO projects",
   "main": "index.js",
   "repository": {
@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/crossjs/eslint-config-plato#readme",
   "dependencies": {
-    "babel-eslint": "^6.1.2",
+    "babel-eslint": "^7.0.0",
     "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-html": "^1.5.2"
+    "eslint-plugin-html": "^1.5.3"
   }
 }
