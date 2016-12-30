@@ -32,7 +32,7 @@ module.exports = {
   "rules": {
     "accessor-pairs": 2,
     "array-bracket-spacing": [2, "never"],
-    "arrow-parens": 0,
+    "arrow-parens": [2, "as-needed"],
     "arrow-spacing": [2, { "before": true, "after": true }],
     "block-spacing": [2, "always"],
     "brace-style": [2, "1tbs", { "allowSingleLine": true }],
@@ -45,7 +45,7 @@ module.exports = {
     "dot-location": [2, "property"],
     "eol-last": 2,
     "eqeqeq": [2, "allow-null"],
-    "generator-star-spacing": 0,
+    "generator-star-spacing": 2,
     "handle-callback-err": [2, "^(err|error)$" ],
     "indent": [2, 2, { "SwitchCase": 1 }],
     "linebreak-style": 2,
@@ -130,6 +130,7 @@ module.exports = {
     "no-whitespace-before-property": 2,
     "no-with": 2,
     "object-curly-spacing": [2, "always", { objectsInObjects: false }],
+    "object-shorthand": 2,
     "one-var": [2, { "initialized": "never" }],
     "operator-linebreak": [2, "after", { "overrides": { "?": "before", ":": "before" } }],
     "padded-blocks": [2, "never"],
@@ -152,12 +153,8 @@ module.exports = {
 
     "no-debugger": process.env.NODE_ENV === "production" ? 2 : 0,
 
-    "babel/generator-star-spacing": 2,
     "babel/new-cap": 2,
-    "babel/array-bracket-spacing": 2,
     "babel/object-curly-spacing": [2, "always"],
-    "babel/object-shorthand": 2,
-    "babel/arrow-parens": [2, "as-needed"],
     "babel/no-await-in-loop": 2
   }
 }
