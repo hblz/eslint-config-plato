@@ -126,6 +126,7 @@ module.exports = {
     "no-useless-computed-key": 2,
     "no-useless-constructor": 2,
     "no-useless-escape": 2,
+    "no-var": 2,
     "no-whitespace-before-property": 2,
     "no-with": 2,
     "object-curly-spacing": [2, "always", { objectsInObjects: false }],
