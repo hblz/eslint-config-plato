@@ -54,6 +54,7 @@ module.exports = {
     "new-cap": [2, { "newIsCap": true, "capIsNew": false }],
     "new-parens": 2,
     "no-array-constructor": 2,
+    "no-await-in-loop": 2,
     "no-caller": 2,
     "no-class-assign": 2,
     "no-cond-assign": 2,
@@ -154,7 +155,6 @@ module.exports = {
     "no-debugger": process.env.NODE_ENV === "production" ? 2 : 0,
 
     "babel/new-cap": 2,
-    "babel/object-curly-spacing": [2, "always"],
-    "babel/no-await-in-loop": 2
+    "babel/object-curly-spacing": [2, "always"]
   }
 }
