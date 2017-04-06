@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/platojs/eslint-config-plato#readme",
   "dependencies": {
-    "babel-eslint": "^7.1.1",
+    "babel-eslint": "^7.2.1",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-html": "^2.0.1"
   }
