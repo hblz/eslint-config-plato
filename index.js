@@ -92,7 +92,6 @@ module.exports = {
     "no-multiple-empty-lines": [2, { "max": 1 }],
     "no-native-reassign": 2,
     "no-negated-in-lhs": 2,
-    "no-new": 2,
     "no-new-func": 2,
     "no-new-object": 2,
     "no-new-require": 2,
