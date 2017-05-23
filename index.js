@@ -129,7 +129,7 @@ module.exports = {
     "no-var": 2,
     "no-whitespace-before-property": 2,
     "no-with": 2,
-    "object-curly-spacing": [2, "always", { objectsInObjects: false }],
+    "object-curly-spacing": 0,
     "object-shorthand": 2,
     "one-var": [2, { "initialized": "never" }],
     "operator-linebreak": [2, "after", { "overrides": { "?": "before", ":": "before" } }],
@@ -154,6 +154,6 @@ module.exports = {
     "no-debugger": process.env.NODE_ENV === "production" ? 2 : 0,
 
     "babel/new-cap": 2,
-    "babel/object-curly-spacing": [2, "always"]
+    "babel/object-curly-spacing": [2, "always", { "objectsInObjects": true, "arraysInObjects": true }]
   }
 }
